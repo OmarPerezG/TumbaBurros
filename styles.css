@@ -15,8 +15,10 @@ body {
 
 .nav-logo {
     width: 50px;
-    height: auto;
+    height: 50px;
     margin-right: 10px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover;
 }
 
 h1 {
